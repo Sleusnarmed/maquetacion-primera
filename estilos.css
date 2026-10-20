@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.margen {
+  padding: 15px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.contenedor_cabecera {
+  background-color: #f0f0f0;
+}
+
+.contenedor_logo {
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contenedor_logo img {
+  width: 100%;
+}
+
+.contenedor_redes {
+  width: 85%;
+  text-align: right;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.contenedor_redes a {
+  width: 50px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.contenedor_redes img {
+  width: 100%;
+}
+
+.links {
+  background-color: #800000;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+.contenedor_fondotec {
+  background-image: url(imagenes/fototec.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+  padding-top: 110px;
+}
+
+.contenedor_fondotec h1{
+  width: 700px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  padding: 20px;
+  margin: auto;
+  font-size: 27px;
+}
+
+.contenedor_bienvenida {
+  margin: auto;
+}
+
+.contenedor_infobienvenida {
+  display: inline-block;
+  width: 500px;
+}
+
+.contenedor_fotoprincipal {
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contenedor_fotoprincipal img {
+  width: 100%;
+}
+
+.dorado {
+  color: rgb(250, 186, 10);
+}
+
+.titulo1{
+  font-size: 30px;
+}
+
+.titulo2{
+  color: #800000;
+  margin: 20px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.contenedor_infobienvenida{
+  text-align: justify;
+}
+
+.mapacampus{
+  width: 100%;
+  height: 300px;
+  margin: 30px 0;
+}
+
+
+.contenedor_abajo{
+  color: white;
+  background-color: #800000;
+}
+
+.logo_abajo{
+  width: 160px;
+  display: inline-block;
+  margin: 0 100px;
+}
+
+.logo_abajo img{
+  width: 100%;
+}
+
+.contenedor_ubicacion{
+  text-align: right;
+  line-height: 40px;
+  width: 650px;
+  display: inline-block;
+}
